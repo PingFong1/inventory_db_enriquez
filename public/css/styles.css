@@ -1,0 +1,97 @@
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(30, 144, 255, 0.9);
+    padding: 15px;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.navbar a:hover {
+    background-color: rgba(0, 92, 191, 0.8);
+    transform: scale(1.05);
+}
+
+/* Table Styles */
+.table-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th,
+.table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #1e90ff;
+    color: white;
+}
+
+/* Highlight Classes */
+.highlight-department {
+    font-weight: bold;
+    color: black;
+}
+
+.highlight-item {
+    color: blue;
+}
+
+.highlight-quantity {
+    color: green;
+}
+
+.highlight-date {
+    color: red;
+}
+
+/* Status Classes */
+.status-pending {
+    color: orange;
+}
+
+/* Button Styles */
+.button-group {
+    display: flex;
+    gap: 10px;
+}
+
+.approve {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.decline {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
